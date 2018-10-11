@@ -1,0 +1,65 @@
+
+iso file:
+https://drive.google.com/uc?id=15YJ6KarIZsM3xK6OL40B1JYI8Z_Xa8ZN&export=download
+
+macOS High Sierra 10.13.6
+https://www.youtube.com/watch?v=jDU0UTdRy20&vl=en
+
+Follow this video for fs1: section
+https://www.youtube.com/watch?v=8FgreMBnjHs
+
+Steps:
+New VM: macOSHighSierra10136
+Settings: Ram 4096, 40 GB, 2 processors
+Storage: New Optical Disk --> .iso file
+Name: macOSHighSierra10136
+Close VirtualBox
+run command file
+Open VirtualBox
+Start VM: macOSHighSierra10136
+Utilities/Install Disk/Remove Disk
+Start Install --> Shell:
+
+fs1:
+cd "macOS Install Data\Locked Files\Boot Files"
+boot.efi
+
+Create shared folder between Windows 10 Host and High Sierra 10.13.6 guest
+https://www.youtube.com/watch?v=-A-t8VGCNY0
+
+C:\Program Files\Oracle\VirtualBox>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Ethernet adapter VirtualBox Host-Only Network #2:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::9450:363f:6740:ba1a%20
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 13:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2604:2000:e901:2a00::a
+   Link-local IPv6 Address . . . . . : fe80::a988:8f82:5759:e240%3
+   IPv4 Address. . . . . . . . . . . : 192.168.0.142
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.0.1
